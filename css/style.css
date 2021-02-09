@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    /* 400 - 600 - 700 */
+    font-family: 'Open Sans', sans-serif; 
 }
 
 /* ==== TAG STYLES ==== */
@@ -61,10 +62,10 @@ ul{
 
 .list-item {
     display: inline;
-    font-weight: bold;
+    font-weight: 600;
     vertical-align: middle;
     padding-top: 20px;
-    margin-left: 35px;
+    margin-left: 5px;
 }
 
 .icon {
@@ -88,6 +89,7 @@ ul{
     padding: 5px 20px;
 }
 
+
 .blu {
     background-color: dodgerblue;
     color: white;
@@ -96,5 +98,11 @@ ul{
 .bianco {
     background-color: white;
     color: gray;
+}
+
+.label {
+    margin-left: 15px;
+    border-radius: 20px;
+    font-weight: normal;
 }
 /* ==== ==== */
