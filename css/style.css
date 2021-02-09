@@ -21,6 +21,10 @@ h1 {
     font-size: 40px;
     font-weight: bold;
 }
+
+ul{
+   list-style-type: none;
+}
 /* ====================== */
 
 /* ==== CLASSI ==== */
@@ -29,22 +33,58 @@ h1 {
     margin-right: 20px;
 }
 
-/* class section con bottoni */
 .top-main {
     width: 75%;
     margin: auto;
     margin-top: 50px;
-    padding-left: 50px;
+    padding: 10px 0 10px 50px;
     border-radius: 5px;
     background-color: white;
 }
+
+.main-content {
+    width: 75%;
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+
+.list-title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.list-item {
+    display: inline;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 20px;
+    margin-left: 35px;
+}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    color: green;
+    border: 1px solid;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
 
 /* ====stile bottoni==== */
 .button {
     display: inline-block;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, .2);
-    margin: 10px;
     padding: 5px 20px;
 }
 
