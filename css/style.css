@@ -5,6 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* ==== TAG STYLES ==== */
 header {
     padding: 20px;
     background-color: white;
@@ -18,9 +19,42 @@ h1 {
     display: inline-block;
     vertical-align: middle;
     font-size: 40px;
+    font-weight: bold;
 }
+/* ====================== */
 
+/* ==== CLASSI ==== */
 .logo {
     vertical-align: middle;
     margin-right: 20px;
 }
+
+/* class section con bottoni */
+.top-main {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* ====stile bottoni==== */
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin: 10px;
+    padding: 5px 20px;
+}
+
+.blu {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.bianco {
+    background-color: white;
+    color: gray;
+}
+/* ==== ==== */
