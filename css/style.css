@@ -47,7 +47,7 @@ ul{
     width: 75%;
     margin: auto;
     margin-top: 5px;
-    /* padding-top: 50px; */
+    padding-bottom: 50px;
     padding-left: 50px;
     border-radius: 5px;
     background-color: white;
@@ -71,8 +71,8 @@ ul{
 
 .icon {
     display: inline-block;
-    height: 25px;
-    width: 25px;
+    height: 26px;
+    width: 26px;
     margin-right: 15px;
     vertical-align: middle;
     text-align: center;
@@ -92,6 +92,7 @@ ul{
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, .2);
     padding: 5px 20px;
+    font-size: 14px;
     color: white;
 }
 
@@ -115,6 +116,14 @@ ul{
 
 .arancio {
     background-color: orangered;
+}
+
+.rosa {
+    background-color:palevioletred;
+}
+
+.lime {
+    background-color: yellowgreen;
 }
 
 .label {
